@@ -256,13 +256,13 @@ header{
     padding-bottom: 10px;
 }
 .dropls{
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-radius: 20px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px 12px;
-    width: 300px;
+    width: 400px;
 }
 .dropls input{
     border: none;
@@ -271,4 +271,59 @@ header{
 .dropls img{
     width: 15px;
     height: 10px;
+}
+.payout1{
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.paylabel{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* identical to box height */
+    margin-bottom: 0px;
+    
+    color: #000000; 
+}
+.payout1 input:checked{
+    color: #000000;
+}
+.payout1 ul{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.payout1 ul>li{
+    list-style: disc;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #5F5D5D;
+
+}
+.paycon{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-top: 70px;
+    background: #015EB2;
+    border-radius: 30px;
+    padding-left: 167px;
+    padding-right: 167px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
