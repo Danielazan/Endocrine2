@@ -8,7 +8,7 @@ body{
 }
 header{
     background-color: white;
-    height: 38px;
+    height: 50px;
     width: 70%;
     border-radius: 50px;
     display: flex;
@@ -30,7 +30,7 @@ header{
 }
 
 .headerbtn{
-    width: 120px;
+    width: 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ color: #292929;
     font-family: 'Nexa Text-Trial';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     border: none;
     border-radius: 20px;
     color: white;
@@ -76,7 +76,7 @@ color: #292929;
 font-family: 'Nexa Text-Trial';
 font-style: normal;
 font-weight: 800;
-font-size: 40px;
+font-size: 70px;
 text-align: center;
 
 color: #000000;
@@ -85,7 +85,7 @@ color: #000000;
     font-family: 'Nexa Text-Trial';
 font-style: normal;
 font-weight: 800;
-font-size: 30px;
+font-size: 60px;
 text-align: center;
 
 color: #000000;
@@ -95,7 +95,7 @@ color: #000000;
     font-family: 'Nexa Text-Trial';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 20px;
 text-align: center;
 
 color: #292929;
@@ -104,11 +104,11 @@ color: #292929;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 370px;
-    height: 30px;
+    width: 465px;
+    height: 56px;
     background-color: white;
     margin-top: 10px;
-    margin-left: 300px;
+    margin-left: 500px;
     border-radius: 30px;
     
     box-shadow: 0px 10px 20px rgba(0, 47, 139, 0.1);
@@ -126,15 +126,16 @@ color: #292929;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     margin-right: 12px;
-    padding: 5px;
+    padding: 10px;
     background-color: rgb(1, 94, 178);
     border-radius: 20px;
     border: none;
 }
 .lonep{
     text-align: center;
+    margin-left: 0px;
     margin-top: 10px;
 }
 .main{
@@ -151,7 +152,16 @@ color: #292929;
 }
 .foots{
     width:90%;
-    height:65%;
+    height:75%;
+}
+.footses{
+    position: relative;
+    width:90%;
+    height:75%;
+}
+.footss{
+    width:200px;
+    height: 200px;
 }
 .foot{
     width:100%;
@@ -169,13 +179,17 @@ color: #292929;
     
 }
 .h{
-    height: 150px;
+    height: 280px;
+}
+.r{
+    position: relative;
+    height: 320px;
 }
 .mapp1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
      
     text-align: center;
     color: #000000;
@@ -184,7 +198,7 @@ color: #292929;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 
     color: #000000;
@@ -198,13 +212,13 @@ color: #292929;
     /* identical to box height */
 
 
-color: #292929;
+    color: #292929;
 }
 .peoplebtn button{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     border-radius: 20px;
     color: #292929;
@@ -214,7 +228,7 @@ color: #292929;
 }
 .pur{
     text-align: center;
-    margin: 20px 200px;
+    margin: 70px 200px;
     background: #a6e3f5;
     padding: 20px 20px;
 }
@@ -222,7 +236,7 @@ color: #292929;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 12x;
+    font-size: 16px;
     /* identical to box height */
     color: #292929;
 }
@@ -230,7 +244,7 @@ color: #292929;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
     
     text-align: center;
 
@@ -240,7 +254,7 @@ color: #292929;
     font-family: 'Nexa Text-Trial';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
 
     color: #000000;
@@ -261,23 +275,24 @@ color: #292929;
     justify-content: space-between;
     margin-bottom: 40px;
     margin-top: 60px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .trans1{
     
-    width: 150px;
-    height:226.33px;
+    width: 200px;
+    height:316.33px;
     left: 350.43px;
     top: 392.54px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(1, 94, 178, 0.15);
     border-radius: 20px;
     transform: rotate(21.73deg);
+    margin-left: 40px;
 }
 .trans2{
-    width: 150px;
-    height:226.33px;
+    width: 200px;
+    height:316.33px;
     left: 350.43px;
     top: 392.54px;
     background: #FFFFFF;
@@ -286,12 +301,12 @@ color: #292929;
     transform: matrix(-0.93, 0.37, 0.37, 0.93, 0, 0);
 }
 .message{
-    margin: 10px auto;
+    margin: 20px auto;
 }
 .messp1{
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
     /* identical to box height */
@@ -302,7 +317,7 @@ color: #292929;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     
     text-align: center;
 
@@ -310,8 +325,8 @@ color: #292929;
 
 }
 .trans3{
-    width: 150px;
-    height:226.33px;
+    width: 200px;
+    height:316.33px;
     left: 350.43px;
     top: 392.54px;
     background: #FFFFFF;
@@ -319,15 +334,14 @@ color: #292929;
     border-radius: 20px;
     transform: rotate(21.73deg);
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .messp2{
     font-family: 'Nexa Text-Trial';
     font-style: normal;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 12px;
     text-align: center;
     color: #000000;
-
 }

@@ -77,9 +77,9 @@ let musices=document.querySelector('musices')
  function video(){
     const sit= photos.map((photo)=>{
         return `
-           <div class="h">
-               <div class="foots">
-                   <img src=${photo.url} class="foot" alt="might">
+            <div class="h">
+                <div class="foots">
+                   <img src=${photo.url}  class="foot" alt="might">
                </div>
               
                 <h1 class="maph1">${photo.name}</h1>
@@ -114,8 +114,8 @@ function music(){
  window.addEventListener('DOMContentLoaded', function user(){
      const sit= photos.map((photo, index)=>{
          return `
-         <div class="h">
-            <div class="foots">
+         <div class="r">
+         <div class="footses">
                 <img src=${photo.url} class="foot" alt="might">
             </div>
             
