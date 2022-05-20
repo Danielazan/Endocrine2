@@ -206,6 +206,16 @@ header{
 
     color: #171515;
 }
+.glob2 h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+
+    text-align: center;
+
+    color: #015EB2;
+}
 .glob2 h5{
     font-family: 'Montserrat';
     font-style: normal;
