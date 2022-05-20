@@ -194,6 +194,7 @@ header{
     justify-content: space-evenly;
     gap: 10px;
     padding: 5px 20px;
+    position: relative;
 }
 .glob2 h3{
     font-family: 'Montserrat';
@@ -222,12 +223,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 300px;
+    width: 400px;
     height: 80px;
 }
 .cal img{
     width: 10px;
     height: 10px;
+    margin-left: 10px;
 }
 .calc{
     width: 40px;
@@ -240,6 +242,7 @@ header{
     height: 40px;
     border-radius: 20px;
     background: #5F5D5D;
+    margin-right: 10px;
 }
 .squ{
     width: 40px;
@@ -250,8 +253,9 @@ header{
     margin-left: 20px;
     margin-top: 20px;
     border: 3px solid #D9D9D9;
+    background-color: #D9D9D9;
     border-radius: 10px;
-    width: 302px;
+    width: 400px;
     margin-bottom: 20px;
 }
 .htext textarea{
@@ -305,4 +309,52 @@ margin-top: 20px;
     height: 45px;
     padding-left:30px;
     padding-top: 5px;
+}
+ .cat{
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+
+}
+.lap2{
+    margin-left: 10px;
+}
+.nameded{
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    margin-left: 20px;
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+}
+.namenum{
+    z-index: 5;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+    color: blue;
+}
+.rapped{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display:none;
+   position: absolute;
+   top: 8px;
+   left: 8px;
+   z-index: -1;
+}
+.nameded input{
+    display: none;
+}
+.nameded input:checked + .rapped{
+    display: inline-block;
 }

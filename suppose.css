@@ -1,0 +1,21 @@
+.nameded{
+    width: 70px;
+    height: 70px;
+    border: 2px solid gray;
+    margin-left: 20px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.rapped{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    display:none;
+}
+.nameded input{
+    display: none;
+}
+.nameded input:checked + .rapped{
+    display: inline-block;
+}
