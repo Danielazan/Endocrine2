@@ -12,7 +12,7 @@
           <header>
               <div class="ve"></div>
               <ul class="headerul">
-                  <li><button class="edi">Edit page</button></li>
+                  <li><button class="edi" id="edi" onclick="toggle()">Edit page</button></li>
                   <div class="emma">
                     <button class="updowm"><img src="./images/imgg.png" alt=""></button>
                     <div class="cl">
@@ -73,23 +73,23 @@
                   <div class="deul">
                       <h1>Edit page</h1>
                       <div class="deulbtn">
-                          <button>Cancel</button>
-                          <button>Save</button>
+                          <button class="mic">Cancel</button>
+                          <button class="mic2">Save</button>
                       </div>
                   </div>
 
                   <div class="haforms">
-                    <label for="">Full name</label>
-                    <input type="text">
+                    <label class="staged1">Full name</label>
+                    <input type="text" class="stageinput">
 
-                    <label for="">What are you creating?</label>
-                    <input type="text">
+                    <label class="staged2">What are you creating?</label>
+                    <input type="text"  class="stageinput">
 
-                    <label for="">About me</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="B  U"></textarea>
+                    <label class="staged3" >About me</label>
+                    <textarea class="stagearea" id="" cols="30" rows="10" placeholder="B  U"></textarea>
 
-                    <label for="">Website</label>
-                    <input type="text">
+                    <label class="staged4">Website</label>
+                    <input type="text" class="stageinput">
                   </div>
 
                   <div class="sharess">
@@ -102,6 +102,54 @@
                   </div>
               </div>
           </div>
+
+
+          <div class="comfirm">
+            <button class="coms"><img src="./images/xx.png" alt=""></button>
+            <div class="comh">
+                <h2>
+                    You are about to support 
+                    Mike smit with some coins,
+                    Are you sure?
+                </h2>
+            </div>
+            <div class="combtm">
+                <button class="combtn1">No</button>
+                <button class="combtn2">Yea, Sure</button>
+            </div>
+          </div>
+
+          <div class="payment">
+            <div class="mpayments">
+                <div class="mpaymentsimg"><img src="./images/imci.png" alt=""></div>
+                
+
+                <div class="payhead">
+                    <h1>Support Mike Smit</h1>
+                    <h4>You’ll be charged N500</h4>
+                </div>
+
+                <div class="payinput">
+                    <input type="text" placeholder="Card Number">
+                    <input type="text" placeholder=" MM/YY   CVC">
+                </div>
+                <img class="payrob" src="./images/rob.png" alt="">
+
+                <button class="pay2">Pay</button>
+                <h5 class="payh5">By continuing, you agree to the terms and privacy policy.</h5>
+            </div>
+          </div>
+
+          <div class="congrats">
+              <img src="./images/xx.png" alt="">
+              <h1>Succesful!</h1>
+              <div class="congratsh">
+                <h3>You have succesfully made </h3>
+                <h3> a donation, Welldone!</h3>
+               </div>
+               <button>Home</button>
+          </div>
       </div> 
+      <script src="./view.js"></script>
 </body>
 </html>

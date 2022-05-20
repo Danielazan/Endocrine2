@@ -403,7 +403,7 @@ margin-top: 20px;
 }
 .edit{
     position: relative;
-    background: red;
+    
     width: 500px;
 }
 .editss{
@@ -415,6 +415,7 @@ margin-top: 20px;
     position: relative;
     background: #FFFFFF;
     border-radius: 80px;
+    margin: 5px 20px;
 }
 .editimga{
     top: -93px;
@@ -430,28 +431,369 @@ margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
     margin-top:100px ;
-    width: ;
+    width: 300px;
+}
+.deul h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    color: #171515;
 }
 .deulbtn{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 150px;
+    margin-bottom: 20px;
+}
+.mic{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 80px;
+    padding: 3px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #171515;
+    border: none;
+}
+.mic2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 80px;
+    padding: 3px 10px;
+    background: rgba(217, 217, 217, 0.5);
+    border: none;
+    color: #868484;
+
 }
 .haforms{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     justify-content: space-evenly;
+    text-align: start;
 }
 .sharess{
     display: flex;
-    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
     justify-content: space-evenly;
     flex-direction: column;
+}
+.sharess h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    color: #171515;
+
+}
+.sharess p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+
+
+color: #5F5D5D;
+
 }
 .sharesimg{
     display:flex;
     align-items: center;
+    justify-content: start;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;   
+    border: none; 
+    height: 40px;
+    margin: 20px 10px;
+    padding: 5px 15px;
+}
+.sharesimg img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.sharess input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background: rgba(217, 217, 217, 0.5);
+}
+.staged1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #171515;
+
+}
+.staged2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    
+   margin-bottom: 10px;
+
+
+    color: #171515;
+
+}
+.staged3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+    color: #171515;
+}
+.staged4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #171515;
+
+}
+.stageinput{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+}
+.stagearea{
+    border: none;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.comfirm{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 80px;
+}.comh{
+    margin-top:10px;
+    width: 400px;
+    padding: 10px 30px;
+   
+}
+.comfirm h2{
+   text-align:center ;
+   
+    
+}
+.coms{
+    position: absolute;
+    top: 15px;
+    left: 400px;
+   
+}
+
+.coms img{
+    width: 30px;
+    height: 30px;
+}
+.combtm{
+    width: 300px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.combtn1{
+    background: #D9D9D9;
+    border-radius: 600px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    color: #171515;
+    padding: 5px 5px;
+
+}
+.combtn2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    background: #015EB2;
+    border-radius: 600px;
+    border: none;
+    width: 100px;
+    padding: 5px 5px;
+    margin-left: 40px;
+    
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.payment{
+   
+    position: relative;
+    width: 550px;
+    margin-top: 20px;
+}
+.mpayments{
+    width: 500px;
+    height: 550px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.mpaymentsimg{
+    position: relative;
+}
+.mpaymentsimg img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -140px;
+    left: -90px;
+}
+.payhead{
+    margin-top: 20px;
+}
+.payhead h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+    color: #3A3838;
+}
+.payhead h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3A3838;
+}
+.payinput{
+    border: 3px solid #171515;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.payinput input{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.payrob{
+    width: 300px;
+    height: 60px;
+}
+.pay2{
+    width: 350px;
+    height: 50px;
+    background: #015EB2;
+    border-radius: 599px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+}
+.payh5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.congrats{
+    width: 400px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    margin-top: 20x;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.congrats img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 2px;
+    left: 300px;
+}
+.congrats h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    
+    text-align: center;
+
+    color: #3A3838;
+}
+.congratsh h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+   
+    text-align: center;
+
+    color: #3A3838;
+}
+.congrats button{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+text-align: center;
+width: 200px;
+color: #FFFFFF;
+background: #015EB2;
+height: 30px;
+border-radius: 600px;
+border: none;
 }
