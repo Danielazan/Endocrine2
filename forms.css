@@ -1,0 +1,80 @@
+.form{
+    display: flex;
+    margin-left:220px ;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+.formdiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.form h1{
+    font-family: 'Tangerine', 'cursive';
+    font-size: 30px;
+    font-weight: 700;
+   color: blue;
+}
+.rotate{
+    font-family: 'Tangerine', 'cursive';
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.form h3{
+    font-family: 'Tangerine', 'cursive';
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.form input{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.house{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.formimg{
+    background-image: url(./images/4957136.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 1000px;
+}
+.fin{
+    display: flex;
+    justify-content: 200px;
+}
+.form input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.formbtn{
+    
+    border-radius: 10px;
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+.comb{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    
+}
+.comb a,p{
+    text-decoration: none;
+    font-size: 20px;
+}
